@@ -18,3 +18,6 @@ class TestBase(unittest.TestCase, Base):
     def test_divide_function(self):
         print ("====",self.functions.difference(10,4))
 
+    def test_multiply_function(self):
+        assert self.functions.multiply(2,4) == 9
+
