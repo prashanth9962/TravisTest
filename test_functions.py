@@ -16,5 +16,5 @@ class TestBase(unittest.TestCase, Base):
         assert self.functions.sum(1,3) == 4
 
     def test_divide_function(self):
-        print "====",self.functions.difference(10,4)
+        print ("====",self.functions.difference(10,4))
 
