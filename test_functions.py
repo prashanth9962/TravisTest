@@ -20,4 +20,5 @@ class TestBase(unittest.TestCase, Base):
 
     def test_multiply_function(self):
         assert self.functions.multiply(2,4) == 9
+        print("===== Gwll")
 
